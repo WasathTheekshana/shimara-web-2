@@ -48,23 +48,31 @@ body{
         color: var(--3-col);
     }
 
-    button{
-        margin-top: 40px;
-        padding: 15px;
-        width: 10rem;
-        outline: none;
-        border: none;
-        color: var(--primary-color);
-        font-family: 'Montserrat';
-        font-weight: bold;
-        background-color: var(--5-col);
-        border-radius: 30px;
-        margin-right: 10px;
+    .btn{
 
+        // text-align: right;
+
+        button{
+            margin-top: 40px;
+            padding: 15px;
+            width: 10rem;
+            outline: none;
+            border: none;
+            color: var(--primary-color);
+            font-family: 'Montserrat';
+            font-weight: bold;
+            background-color: var(--5-col);
+            border-radius: 30px;
+            margin-right: 10px;
+    
+    
+        }
     }
 
     img{
-        display: inline;
+        float: right;
+        margin-top: -350px;
+        border-radius: 30px
     }
 
     
