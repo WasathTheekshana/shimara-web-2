@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@400;700&family=Montserrat:wght@400;600&display=swap");
+:root {
+  --primary-color: rgb(246,243,236);
+  --secondary-color: rgb(0,0,0);
+  --3-col: rgb(89,89,89);
+  --4-col: rgb(202,198,189);
+  --5-col: rgb(174, 134, 110);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Averia Serif", "Montserrat";
+}
+
+body {
+  background-color: var(--primary-color);
+}
+
+.hero {
+  margin: 330px 100px;
+}
+.hero h1 {
+  font-family: "Averia Serif";
+  font-size: 5rem;
+  display: inline;
+}
+.hero img {
+  margin-left: 10%;
+  width: 30%;
+  margin-top: 20%;
+}
+.hero .para {
+  font-family: "Montserrat";
+  width: 55%;
+  margin-top: 15px;
+  color: var(--3-col);
+}
+.hero button {
+  margin-top: 40px;
+  padding: 15px;
+  width: 10rem;
+  outline: none;
+  border: none;
+  color: var(--primary-color);
+  font-family: "Montserrat";
+  font-weight: bold;
+  background-color: var(--5-col);
+  border-radius: 30px;
+  margin-right: 10px;
+}
+.hero img {
+  display: inline;
+}
+
+button:hover {
+  background-color: rgba(174, 134, 110, 0.7);
+  color: white;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
