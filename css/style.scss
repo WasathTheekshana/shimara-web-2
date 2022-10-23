@@ -17,12 +17,14 @@
 
 body{
     background-color: var(--primary-color);
+    
 }
 
 
 .hero{
 
-    margin: 330px 100px;
+    margin: 100px 100px;
+    
 
     
 
@@ -48,6 +50,11 @@ body{
         color: var(--3-col);
     }
 
+    .ii{
+        color: rgb(246,243,236);
+        font-family: 'Montserrat ';
+    }
+
     .btn{
 
         // text-align: right;
@@ -71,8 +78,8 @@ body{
     
     img{
         float: right;
-        margin-top: -350px;
-        border-radius: 30px
+        margin-top: -270px;
+        border-radius: 30px;
     }
     
     
