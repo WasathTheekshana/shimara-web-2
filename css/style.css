@@ -20,7 +20,6 @@ body {
 
 .hero {
   margin: 330px 100px;
-  height: 100vh;
 }
 .hero h1 {
   font-family: "Averia Serif";
@@ -38,6 +37,10 @@ body {
   margin-top: 15px;
   color: var(--3-col);
 }
+.hero .ii {
+  color: rgb(246, 243, 236);
+  font-family: "Montserrat ";
+}
 .hero .btn button {
   margin-top: 40px;
   padding: 15px;
@@ -51,7 +54,7 @@ body {
   border-radius: 30px;
   margin-right: 10px;
 }
-.hero .image img {
+.hero img {
   float: right;
   margin-top: -350px;
   border-radius: 30px;
